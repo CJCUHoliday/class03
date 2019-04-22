@@ -9,12 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var Label_A: UILabel!
+    
+    @IBAction func Button_Push(_ sender: Any) {
+        Label_A.text="HI,Xcode"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
 
+    
 }
 
