@@ -110,12 +110,24 @@
                                     <outlet property="delegate" destination="cuM-3Z-b3o" id="PPx-zg-y9W"/>
                                 </connections>
                             </textField>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbo-GY-IRQ">
+                                <rect key="frame" x="20" y="102" width="374" height="691"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Fng-Yt-bJO" firstAttribute="bottom" secondItem="rrN-Cd-J6x" secondAttribute="bottom" constant="31" id="FgG-Sy-2r8"/>
+                            <constraint firstItem="rrN-Cd-J6x" firstAttribute="top" secondItem="fbo-GY-IRQ" secondAttribute="bottom" constant="8" id="GSh-bM-Qfs"/>
+                            <constraint firstItem="fbo-GY-IRQ" firstAttribute="top" secondItem="Fng-Yt-bJO" secondAttribute="top" constant="14" id="GYB-mq-iY1"/>
                             <constraint firstItem="xg9-I1-41H" firstAttribute="leading" secondItem="Fng-Yt-bJO" secondAttribute="leading" constant="20" id="SDN-6q-dG8"/>
+                            <constraint firstItem="Fng-Yt-bJO" firstAttribute="trailing" secondItem="fbo-GY-IRQ" secondAttribute="trailing" constant="20" id="dF3-3C-Qew"/>
                             <constraint firstItem="rrN-Cd-J6x" firstAttribute="centerY" secondItem="xg9-I1-41H" secondAttribute="centerY" id="fHQ-VR-Sxi"/>
+                            <constraint firstItem="fbo-GY-IRQ" firstAttribute="leading" secondItem="Fng-Yt-bJO" secondAttribute="leading" constant="20" id="mm9-Xi-SfP"/>
                             <constraint firstItem="rrN-Cd-J6x" firstAttribute="leading" secondItem="xg9-I1-41H" secondAttribute="trailing" constant="8" id="svV-eW-Hoz"/>
                             <constraint firstItem="rrN-Cd-J6x" firstAttribute="trailing" secondItem="Fng-Yt-bJO" secondAttribute="trailing" constant="-20" id="wyF-fP-AZz"/>
                         </constraints>
@@ -123,6 +135,7 @@
                     </view>
                     <connections>
                         <outlet property="btnGoBottomConstraint" destination="FgG-Sy-2r8" id="HbN-nV-1zF"/>
+                        <outlet property="mywebview" destination="fbo-GY-IRQ" id="95a-JS-g0N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9zn-a8-ayG" userLabel="First Responder" sceneMemberID="firstResponder"/>

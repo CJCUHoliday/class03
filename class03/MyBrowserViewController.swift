@@ -7,16 +7,17 @@
 //
 
 import UIKit
-
+import WebKit
 class MyBrowserViewController: UIViewController,UITextFieldDelegate {
 
     
     @IBOutlet weak var btnGoBottomConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var mywebview: WKWebView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        mywebview.load(URLRequest(url: URL(string: "https://www.google.com/")!))
         // Do any additional setup after loading the view.
     }
 
@@ -47,8 +48,14 @@ class MyBrowserViewController: UIViewController,UITextFieldDelegate {
         {
             return false
         }
+         let current = textField.text! as NSString
+         let NSString=current.replacingCharacters(in: range, with: string) as NSString
+        
         return true
+        
     }
+   
+   //
     //--
     @objc func keyboardwillAppear(notification:NSNotification?){
         print("keyboardwillAppear")

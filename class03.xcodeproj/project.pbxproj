@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45E2DE322891F8800C1668C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45E2DE222891F8800C1668C /* WebKit.framework */; };
 		FF0812EF227FDEE900320F29 /* MyBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0812EE227FDEE900320F29 /* MyBrowserViewController.swift */; };
 		FFAD2DA722640EAB00F42805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD2DA622640EAB00F42805 /* AppDelegate.swift */; };
 		FFAD2DA922640EAB00F42805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD2DA822640EAB00F42805 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F45E2DE222891F8800C1668C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		FF0812EE227FDEE900320F29 /* MyBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBrowserViewController.swift; sourceTree = "<group>"; };
 		FFAD2DA322640EAB00F42805 /* class03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAD2DA622640EAB00F42805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45E2DE322891F8800C1668C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F45E2DE122891F8800C1668C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F45E2DE222891F8800C1668C /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FFAD2D9A22640EAB00F42805 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +94,7 @@
 				FFAD2DBA22640EAD00F42805 /* class03Tests */,
 				FFAD2DC522640EAD00F42805 /* class03UITests */,
 				FFAD2DA422640EAB00F42805 /* Products */,
+				F45E2DE122891F8800C1668C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
