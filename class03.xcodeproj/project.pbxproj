@@ -123,7 +123,6 @@
 		FFAD2D9A22640EAB00F42805 = {
 			isa = PBXGroup;
 			children = (
-				F40BB12C22924A6A004D84E2 /* AsyncRequestWorker.swift */,
 				FFAD2DA522640EAB00F42805 /* class03 */,
 				FFAD2DBA22640EAD00F42805 /* class03Tests */,
 				FFAD2DC522640EAD00F42805 /* class03UITests */,
@@ -146,6 +145,7 @@
 		FFAD2DA522640EAB00F42805 /* class03 */ = {
 			isa = PBXGroup;
 			children = (
+				F40BB12C22924A6A004D84E2 /* AsyncRequestWorker.swift */,
 				FFAD2DA622640EAB00F42805 /* AppDelegate.swift */,
 				FFAD2DA822640EAB00F42805 /* ViewController.swift */,
 				FFAD2DAA22640EAB00F42805 /* Main.storyboard */,
