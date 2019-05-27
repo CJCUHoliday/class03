@@ -12,8 +12,8 @@ class MyBrowserViewController: UIViewController,UITextFieldDelegate,AsyncReponse
     
     
     func receviedReponse(_ sender: AsyncRequestWorker, responseString: String, tag: Int) {
-      print(responseString)
-        mywebview.loadHTMLString(responseString, baseURL: URL(string: "https://www.google.com/")! )
+     // print(responseString)
+       // mywebview.loadHTMLString(responseString, baseURL: URL(string: "https://www.google.com/")! )
     }
     
 
@@ -37,12 +37,15 @@ class MyBrowserViewController: UIViewController,UITextFieldDelegate,AsyncReponse
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardwillAppear(notification: )), name: UIResponder.keyboardWillShowNotification, object: nil)
         
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardwillDisappear(notification: )), name: UIResponder.keyboardWillHideNotification, object: nil)
+    NotificationCenter.default.addObserver(self, selector: #selector(dataRecceived(notification:)), name:NSNotification.Name(rawValue: "response.received"), object: nil)
         
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
         NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
+    NotificationCenter.default.removeObserver(self, name: NSNotification.Name(rawValue: "response.received"), object: nil)
+        
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -91,6 +94,13 @@ class MyBrowserViewController: UIViewController,UITextFieldDelegate,AsyncReponse
         
     }
     
+    @objc func dataRecceived(notification:NSNotification?)
+    {
+        
+        guard let responseString=notification?.userInfo?["response"] as? String else{return}
+        print(responseString)
+        mywebview.loadHTMLString(responseString, baseURL: URL(string: "https://www.google.com/")! )
+    }
     /*
     @objc func keyboardwillAppear()
     {
