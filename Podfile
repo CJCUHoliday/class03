@@ -7,7 +7,7 @@ target 'class03' do
 
   # Pods for class03
   pod 'SwiftyJSON', '~> 4.0'
-
+  pod 'SQLite.swift', '~> 0.12.0'
 
   target 'class03Tests' do
     inherit! :search_paths
