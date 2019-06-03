@@ -79,7 +79,7 @@ struct ServiceCategoryContext {
     }
     
     //
-    /*
+    
     func readData() -> [ServiceCategory] {
         
         var responseArray : [ServiceCategory] = []
@@ -99,7 +99,7 @@ struct ServiceCategoryContext {
         
         return responseArray
     }
-    */
+ 
 //
     func updateData(serviceId: Int, old_name: String, new_name: String) {
         let currcategories = categories.filter(id == serviceId)
@@ -120,14 +120,14 @@ struct ServiceCategoryContext {
     }
     
     //
-//    func clearAll()  {
-//
-//        let categories = readData()
-//        var indexes : [Int] = []
-//
-//        for category in categories{  indexes.append(category.Index) }
-//
-//        for index in indexes{  delData(currcategoryIndex:index ) }
-//    }
+    func clearAll()  {
+
+        let categories = readData()
+        var indexes : [Int] = []
+
+        for category in categories{  indexes.append(category.Index) }
+
+        for index in indexes{  delData(currcategoryIndex:index ) }
+    }
     
 }
