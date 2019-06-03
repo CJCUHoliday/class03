@@ -121,12 +121,12 @@ struct ServiceCategoryContext {
     
     //
 //    func clearAll()  {
-//        
+//
 //        let categories = readData()
 //        var indexes : [Int] = []
-//        
+//
 //        for category in categories{  indexes.append(category.Index) }
-//        
+//
 //        for index in indexes{  delData(currcategoryIndex:index ) }
 //    }
     

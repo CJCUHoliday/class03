@@ -14,6 +14,8 @@
 		F45E2DE322891F8800C1668C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45E2DE222891F8800C1668C /* WebKit.framework */; };
 		F4CA279A229B872B000B5F38 /* FileWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA2799229B872B000B5F38 /* FileWorker.swift */; };
 		F4CA279C229B9417000B5F38 /* SQLiteWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA279B229B9417000B5F38 /* SQLiteWorker.swift */; };
+		F4D7EC0C22A4AB2E00F87D0C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7EC0B22A4AB2E00F87D0C /* Store.swift */; };
+		F4D7EC0E22A4AB8300F87D0C /* ServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7EC0D22A4AB8300F87D0C /* ServiceCategory.swift */; };
 		FF0812EF227FDEE900320F29 /* MyBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0812EE227FDEE900320F29 /* MyBrowserViewController.swift */; };
 		FFAD2DA722640EAB00F42805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD2DA622640EAB00F42805 /* AppDelegate.swift */; };
 		FFAD2DA922640EAB00F42805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD2DA822640EAB00F42805 /* ViewController.swift */; };
@@ -55,6 +57,8 @@
 		F45E2DE222891F8800C1668C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F4CA2799229B872B000B5F38 /* FileWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWorker.swift; sourceTree = "<group>"; };
 		F4CA279B229B9417000B5F38 /* SQLiteWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteWorker.swift; sourceTree = "<group>"; };
+		F4D7EC0B22A4AB2E00F87D0C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		F4D7EC0D22A4AB8300F87D0C /* ServiceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategory.swift; sourceTree = "<group>"; };
 		FF0812EE227FDEE900320F29 /* MyBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBrowserViewController.swift; sourceTree = "<group>"; };
 		FFAD2DA322640EAB00F42805 /* class03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAD2DA622640EAB00F42805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -159,6 +163,8 @@
 				FF0812EE227FDEE900320F29 /* MyBrowserViewController.swift */,
 				F4CA2799229B872B000B5F38 /* FileWorker.swift */,
 				F4CA279B229B9417000B5F38 /* SQLiteWorker.swift */,
+				F4D7EC0B22A4AB2E00F87D0C /* Store.swift */,
+				F4D7EC0D22A4AB8300F87D0C /* ServiceCategory.swift */,
 			);
 			path = class03;
 			sourceTree = "<group>";
@@ -409,12 +415,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D7EC0C22A4AB2E00F87D0C /* Store.swift in Sources */,
 				F40BB12D22924A6A004D84E2 /* AsyncRequestWorker.swift in Sources */,
 				F4CA279C229B9417000B5F38 /* SQLiteWorker.swift in Sources */,
 				FFAD2DA922640EAB00F42805 /* ViewController.swift in Sources */,
 				FF0812EF227FDEE900320F29 /* MyBrowserViewController.swift in Sources */,
 				F4CA279A229B872B000B5F38 /* FileWorker.swift in Sources */,
 				FFAD2DA722640EAB00F42805 /* AppDelegate.swift in Sources */,
+				F4D7EC0E22A4AB8300F87D0C /* ServiceCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
