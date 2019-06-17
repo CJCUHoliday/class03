@@ -19,6 +19,10 @@ class ViewController: UIViewController {
             self.performSegue(withIdentifier: "moveToMapSegue", sender: self)
     }
     
+    @IBAction func btnTable(_ sender: Any) {
+              self.performSegue(withIdentifier: "moveToTable", sender: self)
+    }
+    
     @IBAction func btnMoveImageClicked(_ sender: Any) {
         let alert=UIAlertController (title: "資訊", message:"YN", preferredStyle: .alert)
         let okAction=UIAlertAction(title: "YES", style:.default , handler: {action in
