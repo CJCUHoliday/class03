@@ -12,6 +12,8 @@
 		A29684E71A5B9892C7FFBB12 /* Pods_class03Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A5F0D2F9E582177EDE1427 /* Pods_class03Tests.framework */; };
 		F40BB12D22924A6A004D84E2 /* AsyncRequestWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40BB12C22924A6A004D84E2 /* AsyncRequestWorker.swift */; };
 		F40E97FC22B72446001AD6CC /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E97FB22B72446001AD6CC /* ProductListViewController.swift */; };
+		F40E97FE22B7372A001AD6CC /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E97FD22B7372A001AD6CC /* MyTableViewCell.swift */; };
+		F40E980022B74283001AD6CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40E97FF22B74283001AD6CC /* DetailViewController.swift */; };
 		F45E2DE322891F8800C1668C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45E2DE222891F8800C1668C /* WebKit.framework */; };
 		F4CA279A229B872B000B5F38 /* FileWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA2799229B872B000B5F38 /* FileWorker.swift */; };
 		F4CA279C229B9417000B5F38 /* SQLiteWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CA279B229B9417000B5F38 /* SQLiteWorker.swift */; };
@@ -58,6 +60,8 @@
 		D6267106D2F6ABF27066EBF5 /* Pods_class03.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_class03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F40BB12C22924A6A004D84E2 /* AsyncRequestWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncRequestWorker.swift; sourceTree = "<group>"; };
 		F40E97FB22B72446001AD6CC /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		F40E97FD22B7372A001AD6CC /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		F40E97FF22B74283001AD6CC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F45E2DE222891F8800C1668C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F4CA2799229B872B000B5F38 /* FileWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileWorker.swift; sourceTree = "<group>"; };
 		F4CA279B229B9417000B5F38 /* SQLiteWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteWorker.swift; sourceTree = "<group>"; };
@@ -174,6 +178,8 @@
 				F4D7EC0F22A4B44A00F87D0C /* ImageViewController.swift */,
 				F4D7EC1122A4C6EF00F87D0C /* MyMapViewController.swift */,
 				F40E97FB22B72446001AD6CC /* ProductListViewController.swift */,
+				F40E97FD22B7372A001AD6CC /* MyTableViewCell.swift */,
+				F40E97FF22B74283001AD6CC /* DetailViewController.swift */,
 			);
 			path = class03;
 			sourceTree = "<group>";
@@ -424,11 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F40E980022B74283001AD6CC /* DetailViewController.swift in Sources */,
 				F4D7EC0C22A4AB2E00F87D0C /* Store.swift in Sources */,
 				F4D7EC1022A4B44A00F87D0C /* ImageViewController.swift in Sources */,
 				F40BB12D22924A6A004D84E2 /* AsyncRequestWorker.swift in Sources */,
 				F4D7EC1222A4C6EF00F87D0C /* MyMapViewController.swift in Sources */,
 				F4CA279C229B9417000B5F38 /* SQLiteWorker.swift in Sources */,
+				F40E97FE22B7372A001AD6CC /* MyTableViewCell.swift in Sources */,
 				FFAD2DA922640EAB00F42805 /* ViewController.swift in Sources */,
 				FF0812EF227FDEE900320F29 /* MyBrowserViewController.swift in Sources */,
 				F4CA279A229B872B000B5F38 /* FileWorker.swift in Sources */,
