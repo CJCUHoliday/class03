@@ -79,6 +79,15 @@
                                     <action selector="btnTable:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kat-7p-VXh"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oHb-20-e4d">
+                                <rect key="frame" x="119" y="731" width="139" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="WebViewButton"/>
+                                <connections>
+                                    <action selector="btnWebClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M2U-5D-Tbd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -89,6 +98,7 @@
                         <segue destination="qeD-ap-Qzh" kind="show" identifier="moveToM2kimage" id="KCn-94-f30"/>
                         <segue destination="Aef-Bg-U9X" kind="show" identifier="moveToMapSegue" id="2He-ML-eVJ"/>
                         <segue destination="SIv-1S-sag" kind="show" identifier="moveToTable" id="gdG-v3-Azc"/>
+                        <segue destination="mxH-Qf-o8Z" kind="show" identifier="moveToWebSegue" id="AMQ-bQ-qUd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -150,6 +160,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jir-EF-v5D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="895.6521739130435" y="1032.5892857142858"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="ml0-zL-NMq">
+            <objects>
+                <viewController id="mxH-Qf-o8Z" customClass="WebViewController" customModule="class03" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kHb-ZE-8RM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="F0p-5g-tc7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dct-0p-7Rr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1636" y="1033"/>
         </scene>
         <!--Product List View Controller-->
         <scene sceneID="0Xl-Yg-MWk">

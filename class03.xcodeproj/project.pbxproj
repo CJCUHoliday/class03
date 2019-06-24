@@ -21,6 +21,7 @@
 		F4D7EC0E22A4AB8300F87D0C /* ServiceCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7EC0D22A4AB8300F87D0C /* ServiceCategory.swift */; };
 		F4D7EC1022A4B44A00F87D0C /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7EC0F22A4B44A00F87D0C /* ImageViewController.swift */; };
 		F4D7EC1222A4C6EF00F87D0C /* MyMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7EC1122A4C6EF00F87D0C /* MyMapViewController.swift */; };
+		F4DFDED822C0657400E4F653 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFDED722C0657400E4F653 /* WebViewController.swift */; };
 		FF0812EF227FDEE900320F29 /* MyBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0812EE227FDEE900320F29 /* MyBrowserViewController.swift */; };
 		FFAD2DA722640EAB00F42805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD2DA622640EAB00F42805 /* AppDelegate.swift */; };
 		FFAD2DA922640EAB00F42805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD2DA822640EAB00F42805 /* ViewController.swift */; };
@@ -69,6 +70,7 @@
 		F4D7EC0D22A4AB8300F87D0C /* ServiceCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategory.swift; sourceTree = "<group>"; };
 		F4D7EC0F22A4B44A00F87D0C /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		F4D7EC1122A4C6EF00F87D0C /* MyMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapViewController.swift; sourceTree = "<group>"; };
+		F4DFDED722C0657400E4F653 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		FF0812EE227FDEE900320F29 /* MyBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBrowserViewController.swift; sourceTree = "<group>"; };
 		FFAD2DA322640EAB00F42805 /* class03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFAD2DA622640EAB00F42805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				F40E97FB22B72446001AD6CC /* ProductListViewController.swift */,
 				F40E97FD22B7372A001AD6CC /* MyTableViewCell.swift */,
 				F40E97FF22B74283001AD6CC /* DetailViewController.swift */,
+				F4DFDED722C0657400E4F653 /* WebViewController.swift */,
 			);
 			path = class03;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 				FF0812EF227FDEE900320F29 /* MyBrowserViewController.swift in Sources */,
 				F4CA279A229B872B000B5F38 /* FileWorker.swift in Sources */,
 				FFAD2DA722640EAB00F42805 /* AppDelegate.swift in Sources */,
+				F4DFDED822C0657400E4F653 /* WebViewController.swift in Sources */,
 				F40E97FC22B72446001AD6CC /* ProductListViewController.swift in Sources */,
 				F4D7EC0E22A4AB8300F87D0C /* ServiceCategory.swift in Sources */,
 			);

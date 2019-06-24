@@ -23,6 +23,9 @@ class ViewController: UIViewController {
               self.performSegue(withIdentifier: "moveToTable", sender: self)
     }
     
+    @IBAction func btnWebClick(_ sender: Any) {
+        self.performSegue(withIdentifier: "moveToWebSegue", sender: self)
+    }
     @IBAction func btnMoveImageClicked(_ sender: Any) {
         let alert=UIAlertController (title: "資訊", message:"YN", preferredStyle: .alert)
         let okAction=UIAlertAction(title: "YES", style:.default , handler: {action in
